@@ -28,10 +28,12 @@ form {
 
 .items {
   position: fixed;
-  top: 50px;
+  top: 150px;
   right: 30%;
   left: 30%;
   border-radius: 8px;
+  height: 200px;
+  overflow-y: auto;
 }
 
 .form-group {
@@ -41,4 +43,7 @@ form {
 .completedTodo {
   background-color: darkgray;
   text-decoration: line-through;
+}
+.icon {
+  float: right;
 }

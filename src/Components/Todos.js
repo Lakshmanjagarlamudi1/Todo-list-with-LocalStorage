@@ -8,7 +8,7 @@ const Todos = ({ todos, markComplete }) => {
       {todos.map((todo) => (
         <ListGroupItem key={todo.id}>
           {todo.todoString}
-          <span className="float-right" onClick={() => markComplete(todo.id)}>
+          <span className="icon" onClick={() => markComplete(todo.id)}>
             <FaCheckDouble />
           </span>
         </ListGroupItem>

@@ -26,7 +26,7 @@ const TodoForm = ({ addTodos }) => {
   };
 
   return (
-    <Form>
+    <Form onSubmit={handleSubmit}>
       <FormGroup>
         <InputGroup>
           <Input
@@ -38,7 +38,7 @@ const TodoForm = ({ addTodos }) => {
             onChange={(e) => setTodoString(e.target.value)}
           />
           <InputGroupAddon addonType="prepend">
-            <Button color="success" onSubmit={handleSubmit}>
+            <Button color="success">
               Add Todo
             </Button>
           </InputGroupAddon>

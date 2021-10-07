@@ -3,7 +3,7 @@ import { Container } from "reactstrap";
 import Todos from "./Components/Todos";
 import TodoForm from "./Components/TodoForm";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles.css";
+import "./App.css";
 
 const App = () => {
   const [todos, setTodos] = useState([]);
